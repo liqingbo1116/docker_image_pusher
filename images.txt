@@ -1,5 +1,9 @@
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+docker.io/grafana/grafana:latest
+docker.io/bats/bats:v1.4.1
+docker.io/curlimages/curl:7.85.0
+docker.io/library/busybox:1.31.1
+quay.io/kiwigrid/k8s-sidecar:1.26.1
+docker.io/grafana/grafana-image-renderer:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/amd64
