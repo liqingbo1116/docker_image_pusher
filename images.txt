@@ -1,4 +1,4 @@
-#支持私库ss
+#支持私库
 docker.io/grafana/grafana:latest
 docker.io/grafana/grafana:11.1.0
 docker.io/bats/bats:v1.4.1
